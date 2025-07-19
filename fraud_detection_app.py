@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load model
-model = joblib.load("C:/Users/Manoj/Desktop/MS/eda_i/fraud_classifier_catboost_tuned.joblib")
+model = joblib.load("fraud_classifier_catboost_tuned.joblib")
 
 # Define input features
 cat_features = ['cat109', 'cat116']
